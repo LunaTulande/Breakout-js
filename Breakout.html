@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Breakout</title>
+<meta name="description" content="Breakout Game in javascript">
+<meta name="keywords" content="javascript, game, breakout">
+<meta name="author" content="Luna Tulande">
+<meta name="generator" content="Notepad++">
+<meta name="robots" content="index,follow">
+<meta http-equiv="refresh" content="3481">
+<meta charset="UTF-8">
+<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="Breakout.css" media="screen">
+</head>
+<body class="background">
+
+<h1>Breakout Game</h1>
+<p class="text">Press the &quot;Play&quot; button to start the game.</p>
+<div id="divTime">
+  <p class="text">Time: <span id="time">00</span> seconds</p>
+</div>
+<canvas id="myCanvas" width="640" height="520"></canvas>
+
+<div id="divSuggestion">
+  <button id="sugges" onclick="suggestion()">Suggestions</button>
+</div>
+<p id="gamepad">
+  <button id="play" onclick="play()">Play</button>
+  <button id="left" onclick="moveLeft()">&lt;</button>
+  <button id="right" onclick="moveRight()">&gt;</button>
+  <button id="velo" onclick="velocity()">Velocity+</button>
+</p>
+<div id="divScore">
+  <button id="score" onclick="scores()">Scores</button>
+</div>
+<div id="veloPlus">
+  <p>V+</p>
+</div>
+
+<script type="text/javascript" src="Breakout.js"></script>
+</body>
+</html>

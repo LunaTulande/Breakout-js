@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Save Score</title>
+<meta name="description" content="Save score">
+<meta name="author" content="Luna Tulande">
+<meta name="generator" content="Notepad++">
+<meta name="robots" content="index,follow">
+<meta http-equiv="refresh" content="3481">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="BackgroundStyle.css" media="screen">
+</head>
+<body background="ground.jpg" class="background">
+<center>
+ <h1>Save your score</h1>
+ <form action="http://localhost/Test/prov/insertScores.php" method="post">
+  <table>
+   <tr><td><b>Name:</b></td><td><input type="text" name="name"></td>
+   </tr>
+   <tr><td><b>Score:</b></td><td><input type="text" name="score" value="---$score---" readonly></td>
+   </tr>
+  </table>
+  <p><input type="submit" name="submit" value="Save"></p>
+ </form>
+</center>
+</body>
+</html>

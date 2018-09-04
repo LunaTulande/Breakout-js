@@ -1,0 +1,10 @@
+.background { 
+	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+}

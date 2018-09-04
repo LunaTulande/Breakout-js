@@ -1,0 +1,88 @@
+
+body { 
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+	background-image: url("ground.jpg"); 
+	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+}
+
+h1 { 
+	color: white;
+	text-shadow:5px 5px 10px red;
+	font-size: 3.5em;
+}
+
+.text {
+	color: red;
+	font-size: 1.3em;
+	
+}
+
+canvas { background: rgba(255,239,213,0.5); }
+#divSuggestion { 
+	position:fixed; 
+	bottom: 0px; 
+	left: 0px;
+	padding: 15px
+}
+#divScore { 
+	position:fixed; 
+	bottom: 0px; 
+	right: 0px;
+	padding: 15px
+}
+
+button {
+    border-style: double;
+	border-width: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 0 9px #D3D3D3;
+	outline: none;
+}
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#sugges { background-color: green;}
+#sugges:hover { background-color: DarkGreen;}
+#play { background-color: red; }
+#play:hover { background-color: #e60000; }
+#left, #right { 	background-color: orange; }
+#left:hover, #right:hover { background-color: #e69500; }
+#velo {
+	background-color: #4f74e3;
+	padding: 15px 18px;
+	font-size: 15px;
+    margin: 4px 2px;
+}
+#velo:hover { background-color: #3862e0; }
+#score { background-color: Navy;}
+#score:hover { background-color: Indigo;}
+#veloPlus {
+	background-color: #D3D3D3;
+	width: 50px;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	display: none;
+	position: absolute;	
+}
